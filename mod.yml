@@ -1,8 +1,8 @@
 ---
-title: BtlParamRebalance
+title: TechParamRebalance (TPR)
 originalAuthor: Cagaroo
 description: >-
-    Game rebalancing
+    Adds staggers to basic swings and formchanges! Increases Sora/Riku's RV per basic swing. Changes enemy upward knockbacks to backward knockbacks.
 assets:
 ## Player Techniques
   - name: game\bin\techprmp.bin
