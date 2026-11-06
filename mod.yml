@@ -9,9 +9,25 @@ assets:
     method: copy
     source:
       - name: remastered\game\techprmp.bin
+  - name: game\bin\patkdata.bin
+    method: copy
+    source:
+      - name: 3ds\game\42-patkdata.bin
       
 ## Enemy Techniques
   - name: game\bin\techprm.bin
     method: copy
     source:
       - name: remastered\game\techprm.bin
+
+## Command Data
+  - name: game\bin\cmddata.bin
+    method: copy
+    source:
+      - name: remastered\game\cmddata.bin
+
+## Drop Rates
+  - name: game\bin\dropprm.bin
+    method: copy
+    source:
+      - name: remastered\game\dropprm.bin
