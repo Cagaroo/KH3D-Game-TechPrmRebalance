@@ -12,7 +12,7 @@ assets:
   - name: game\bin\patkdata.bin
     method: copy
     source:
-      - name: 3ds\game\42-patkdata.bin
+      - name: remastered\game\patkdata.bin
       
 ## Enemy Techniques
   - name: game\bin\techprm.bin
@@ -20,14 +20,130 @@ assets:
     source:
       - name: remastered\game\techprm.bin
 
-## Command Data
-  - name: game\bin\cmddata.bin
+## Restored p_ex030 Anims
+  - name: game\bin\pat_sora.bin
     method: copy
     source:
-      - name: remastered\game\cmddata.bin
+      - name: remastered\game\pat_sora.bin
+  - name: chara\pc\p_ex01\anm\rt\bin\p_ex01_001.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\371-p_ex01_001.pam
+  - name: chara\pc\p_ex03\anm\rt\bin\p_ex03_001.pam
+    method: copy
+    source:
+      - name: 3ds\chara_pc\191-p_ex03_001.pam
 
-## Drop Rates
-  - name: game\bin\dropprm.bin
+## New Attack Effects
+  - name: chara\wep\w_ri01\anm\rt\bin\w_so01_001.ead
     method: copy
     source:
-      - name: remastered\game\dropprm.bin
+      - name: 3ds\chara_wep\27-w_ri01_001.ead
+  - name: chara\wep\w_ri02\anm\rt\bin\w_ri02_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\138-w_ri02_001.ead
+  - name: chara\wep\w_ri03\anm\rt\bin\w_ri03_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\177-w_ri03_001.ead
+  - name: chara\wep\w_ri04\anm\rt\bin\w_ri04_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\77-w_ri04_001.ead
+  - name: chara\wep\w_ri05\anm\rt\bin\w_ri05_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\21-w_ri05_001.ead
+  - name: chara\wep\w_ri07\anm\rt\bin\w_ri07_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\199-w_ri07_001.ead
+  - name: chara\wep\w_ri08\anm\rt\bin\w_ri08_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\26-w_ri08_001.ead
+  - name: chara\wep\w_ri09\anm\rt\bin\w_ri09_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\71-w_ri09_001.ead
+  - name: chara\wep\w_ri10\anm\rt\bin\w_ri10_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\151-w_ri10_001.ead
+  - name: chara\wep\w_ri11\anm\rt\bin\w_ri11_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\174-w_ri11_001.ead
+  - name: chara\wep\w_ri12\anm\rt\bin\w_ri12_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\56-w_ri12_001.ead
+  - name: chara\wep\w_ri13\anm\rt\bin\w_ri13_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\48-w_ri13_001.ead
+  - name: chara\wep\w_ri14\anm\rt\bin\w_ri14_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\109-w_ri14_001.ead
+  - name: chara\wep\w_ri15\anm\rt\bin\w_ri15_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\203-w_ri15_001.ead
+  - name: chara\wep\w_ri16\anm\rt\bin\w_ri16_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\96-w_ri16_001.ead
+  - name: chara\wep\w_so01\anm\rt\bin\w_so01_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\212-w_so01_001.ead
+  - name: chara\wep\w_so02\anm\rt\bin\w_so02_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\93-w_so02_001.ead
+  - name: chara\wep\w_so03\anm\rt\bin\w_so03_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\9-w_so03_001.ead
+  - name: chara\wep\w_so04\anm\rt\bin\w_so04_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\156-w_so04_001.ead
+  - name: chara\wep\w_so05\anm\rt\bin\w_so05_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\166-w_so05_001.ead
+  - name: chara\wep\w_so07\anm\rt\bin\w_so07_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\39-w_so07_001.ead
+  - name: chara\wep\w_so08\anm\rt\bin\w_so08_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\211-w_so08_001.ead
+  - name: chara\wep\w_so09\anm\rt\bin\w_so09_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\104-w_so09_001.ead
+  - name: chara\wep\w_so10\anm\rt\bin\w_so10_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\80-w_so10_001.ead
+  - name: chara\wep\w_so11\anm\rt\bin\w_so11_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\15-w_so11_001.ead
+  - name: chara\wep\w_so13\anm\rt\bin\w_so13_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\190-w_so13_001.ead
+  - name: chara\wep\w_so16\anm\rt\bin\w_so15_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\35-w_so15_001.ead
+  - name: chara\wep\w_so16\anm\rt\bin\w_so16_001.ead
+    method: copy
+    source:
+      - name: 3ds\chara_wep\134-w_so16_001.ead
