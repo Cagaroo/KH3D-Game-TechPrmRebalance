@@ -2,7 +2,7 @@
 title: TechParamRebalance (TPR)
 originalAuthor: Cagaroo
 description: >-
-    Adds staggers to basic swings and formchanges! Increases Sora/Riku's RV per basic swing. Changes enemy upward knockbacks to backward knockbacks.
+    Adds combo modifiers to basic combos! Adds staggers to basic swings and formchanges! Changes enemy upward knockbacks to backward knockbacks.
 assets:
 ## Player Techniques
   - name: game\bin\techprmp.bin
@@ -34,7 +34,7 @@ assets:
     source:
       - name: 3ds\chara_pc\191-p_ex03_001.pam
 
-## New Attack Effects
+## Adjusted Swing Effects
   - name: chara\wep\w_ri01\anm\rt\bin\w_so01_001.ead
     method: copy
     source:
